@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 def get_data(nickname):
-    session = berserk.TokenSession(os.getenv("API_TOKEN"))
+    session = berserk.TokenSession("")
     client = berserk.Client(session=session)
     warnings.filterwarnings("ignore")
 
